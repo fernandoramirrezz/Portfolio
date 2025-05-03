@@ -4,7 +4,8 @@ import ExpenseTrackerDemo from "./FinanceTracker";
 import LightSaber from "./LightSaber";
 import AnimatedPinDemo from "./3d-Pin-Dev";
 import MyRobot from "./myRobot";
-
+import PlayStation from "./Playstation";
+import Web from "./Website";
 export function TimelineDemo() {
   const data = [
     
@@ -12,10 +13,10 @@ export function TimelineDemo() {
       title: "Now 2025",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="mb-12 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             Built and launched an AI Expense Tracking App that gives users smart financial advice.
           </p>
-          <div className="h-150 w-full rounded-lg object-cover">
+          <div className="h-110 w-full rounded-lg object-cover">
             <ExpenseTrackerDemo />
           </div>
         </div>
@@ -26,9 +27,9 @@ export function TimelineDemo() {
       title: "Early 2025",
       content: (
         <div>
-          <p className="mb-1 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+          <p className="text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
           Won my first hackathon at SparkHacks at Univeristy of Illinois at Chicago with our AI-powered environmental project SeaSavers.          </p>
-          <div className="h-120 w-full rounded-lg object-cover">
+          <div className="scale-80 h-120 w-full rounded-lg object-cover">
             <AnimatedPinDemo />
           </div>
         </div>
@@ -60,14 +61,9 @@ export function TimelineDemo() {
             Built my very first website — it wasn’t perfect, but it sparked a passion for frontend development and UI/UX
           </p>
           
-          <div className="grid grid-cols-2 gap-4">
-            <img
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
-             </div>
+          <div >
+            <Web />
+            </div>
         </div>
       ),
     },
@@ -84,13 +80,11 @@ export function TimelineDemo() {
               className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
               Started following online coding tutorials and built mini-projects like calculators, to-do lists, and weather pages. Realized how powerful building for the web could be and set a goal to launch my own design system one day.
             </p>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="w-full scale-80">
               <img
-                src="Codedex.png"
+                src="Laptop.png"
                 alt="hero template"
-                width={500}
-                height={500}
-                className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
+                className="w-full h-auto rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
                </div>
           </div>
         ),
@@ -109,8 +103,8 @@ export function TimelineDemo() {
             Built and programmed robots to compete in regional competitions.
               </p>  
             
-            <div className="grid grid-cols-2 gap-4">
-              <div className="h-70 w-full rounded-lg object-cover">
+            <div >
+              <div className="h-70 justify-center">
                 <MyRobot />
               </div>
             </div>
@@ -136,20 +130,8 @@ export function TimelineDemo() {
             </p>
   
             
-            <div className="grid grid-cols-2 gap-4">
-              <img
-                src="https://assets.aceternity.com/pro/hero-sections.png"
-                alt="hero template"
-                width={500}
-                height={500}
-                className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
-              <img
-                src="https://assets.aceternity.com/pro/hero-sections.png"
-                alt="hero template"
-                width={500}
-                height={500}
-                className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60" />
-              
+            <div >
+              <PlayStation />
               </div>
           </div>
         ),

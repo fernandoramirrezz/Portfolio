@@ -1,5 +1,5 @@
 @import "tailwindcss";
-z
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -74,7 +74,7 @@ body {
   margin-inline: 30px;
 }
 
-.part{
+.parts{
   height: 39px;
   border: solid 1px black;
 }
@@ -370,4 +370,227 @@ body {
   50% {
       transform: translateY(50px);
   }
+}
+
+
+
+.wrapper {
+  width: 150px;
+ height: 150px;
+ margin: 50px auto;
+ background: #2e3335;
+ background: linear-gradient(#2e3235, #181b1e);
+ border-radius: 15px;
+ border: 1px solid rgba(0,0,0,0.3);
+ box-shadow:
+   0 0 10px rgba(0,0,0,0.4),
+   0 5px 10px 3px rgba(0,0,0,0.2),
+   inset 0 1px 0 rgba(255,255,255,0.2);
+}
+
+ul {
+  position: relative;
+ height: 100%;
+ width: 100%;
+}
+
+li {
+  width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ position: absolute;
+ border: 3px solid #16191c;
+ background: #222529;
+ box-shadow: 
+   inset 0 1px 0 rgba(255,255,255,0.1),
+   inset 0 -2px 1px rgba(0,0,0,0.1),
+   0 1px 1px rgba(255,255,255,0.1);
+ cursor: pointer;
+}
+
+li:hover {
+  box-shadow:  
+   inset 0 1px 0 rgba(255,255,255,0.1),
+   inset 0 -2px 1px rgba(0,0,0,0.1),
+   0 1px 1px rgba(255,255,255,0.1),
+   inset 0 20px 50px rgba(100,100,100,0.1);
+}
+
+li span {
+  display: block; 
+}
+
+.triangle {
+  left: 50%;
+ margin-left: -25px;
+ top: 8px;
+}
+
+.cross {
+  left: 50%;
+ margin-left: -25px;
+ bottom: 8px;
+}
+
+.square {
+  top: 50%;
+ margin-top: -25px;
+ left: 8px;
+}
+
+.circle {
+  top: 50%;
+ margin-top: -25px;
+ right: 8px;
+}
+
+.square span {
+  border: 5px solid #d49ac0;
+ width: 100%;
+ height: 100%;
+ transform: scale(0.55);
+}
+
+.circle span {
+  border: 5px solid #eb5535;
+ height: 100%;
+ width: 100%;
+ transform: scale(0.6);
+ border-radius: inherit;
+}
+
+.cross span {
+  position: relative;
+ width: 100%;
+ height: 100%;
+}
+
+.cross span:after,
+.cross span:before {
+  content: "";
+ width: 0;
+ height: 100%;
+ border: 2px solid #8d95c7;
+ position: absolute;
+ transform: scale(0.55) rotate(45deg);
+ left: 50%;
+ margin-left: -2px;
+ margin-top: -2px;
+}
+
+.cross span:after {
+  transform: scale(0.55) rotate(-45deg); 
+}
+
+.triangle span {
+  width: 0; 
+ height: 0; 
+ border-left: 17px solid transparent;
+ border-right: 17px solid transparent;	
+ border-bottom: 28px solid #1d6f56;
+ margin-left: 5px;
+ margin-top: 5px;
+ position: relative;
+ transform: scale(0.9);
+} 
+
+.triangle span:after {
+  content: "";
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ border-left: 17px solid transparent;
+ border-right: 17px solid transparent;	
+ border-bottom: 28px solid #2e3335;
+ left: -17px;
+ top: 2px;
+ transform: scale(0.65);
+}
+
+
+.container {
+  text-align: center;
+}
+
+.mockup {
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  font-size: 0;
+  perspective: 2400px;
+  perspective-origin: 50% 100%;
+  opacity: 0;
+  transition: 500ms opacity;
+}
+
+.mockup.loaded {
+  opacity: 1;
+}
+
+.mockup .part .top,
+.mockup .part .bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mockup .part.top {
+  transform: translate3d(0, 0, 0) rotateX(-90deg);
+}
+
+.mockup:hover .part.top {
+  transform: translate3d(0, 0, 0) rotateX(0deg);
+}
+
+.mockup .part {
+  display: inline-block;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transform-origin: 50% 100%;
+  transition: 900ms;
+}
+
+.mockup.opened .part .top {
+  transform: translate3d(0, 0, -11px) rotateX(90deg) scale(1, 1);
+}
+
+.mockup .part .top {
+  transform-origin: 50% 0;
+  transform: translate3d(0, 0, -11px) rotateX(90deg);
+  transition: 900ms;
+}
+
+.mockup img {
+  display: block;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.mockup .part .cover {
+  position: relative;
+}
+
+.mockup video {
+  display: block;
+  position: absolute;
+  top: 8%;
+  left: 4%;
+  width: 92%;
+  border-radius: 6px;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 1px);
+}
+
+.mockup .part.bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(0, 0, 0) rotateX(-90deg);
+}
+
+.mockup .part .bottom {
+    transform-origin: 50% 0;
+    transform: translate3d(0,0,0) rotateX(90deg);
 }

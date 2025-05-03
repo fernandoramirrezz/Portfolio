@@ -8,8 +8,8 @@ export const Lightsaber = () => {
         <div className="hilt">
           <div className="crown"></div>
           <div className="stripes">
-            <div className="part"></div>
-            <div className="part"></div>
+            <div className="parts"></div>
+            <div className="parts"></div>
           </div>
           <div className="part-circle"></div>
         </div>
