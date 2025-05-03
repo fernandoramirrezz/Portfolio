@@ -5,9 +5,9 @@ import { SparklesCore } from "@/components/ui/sparkles";
 export function Sparkle() {
   return (
     <div
-      className="h-[30rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-xl">
+      className="h-[30rem] w-full  bg-neutral-900 flex flex-col items-center justify-center overflow-hidden rounded-xl">
       <h1
-        className="md:text-5xl top-15 text-3xl lg:text-6xl font-bold text-center text-white relative z20">
+        className=" md:text-4xl top-15 text-2xl lg:text-6xl font-bold text-center text-white relative z20">
         Creator first. Coder second.
       </h1>
       <div className="w-[40rem] h-40 relative top-15">
@@ -21,7 +21,6 @@ export function Sparkle() {
         <div
           className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
 
-        {/* Core component */}
         <SparklesCore
           background="transparent"
           minSize={0.4}
@@ -30,9 +29,8 @@ export function Sparkle() {
           className="w-full h-full"
           particleColor="#FFFFFF" />
 
-        {/* Radial Gradient to prevent sharp edges */}
         <div
-          className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+          className="absolute inset-0 w-full h-full  bg-neutral-900 [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
       </div>
     </div>
   );
