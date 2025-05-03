@@ -5,7 +5,7 @@ import { Lightsaber } from "@/components/ui/lightsaber";
 export function LightSaber () {
     
   return (
-    <div className="scale-66 w-full justify-start">
+    <div className="lg:scale-90 md:scale-75 scale-49 w-full flex-1/2 justify-end">
       <Lightsaber className="w-[80vw] max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl" />
     </div>
   );
