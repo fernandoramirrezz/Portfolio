@@ -2,7 +2,7 @@ import React from "react";
 
 export const PS = () => {
     return (
-<div className="wrapper">
+<div className="custom-list wrapper">
   <ul>
     <li className="triangle"><span></span></li>
     <li className="square"><span></span></li>

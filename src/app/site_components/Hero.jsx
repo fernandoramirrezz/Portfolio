@@ -20,7 +20,7 @@ export function Hero () {
 
       <ShootingStars />
       <StarsBackground />
-      <div className="absolute inset-x-0 top-100 z-20 flex justify-center">
+      <div className="absolute inset-x-0 top-70 z-20 flex justify-center">
           <SocialLinks />
         </div>
     </div>
