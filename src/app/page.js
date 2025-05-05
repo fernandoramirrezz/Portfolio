@@ -2,8 +2,8 @@ import Image from "next/image";
 import Navbar from "./site_components/Navbar";
 import Hero from "./site_components/Hero";
 import Carousel from "./site_components/Carousel";
-import TimelineDemo from "./site_components/Timeline";
-import Sparkle from "./site_components/Footer";
+import TimelineDemo from "./(routes)/timeline/_components/Timeline";
+import FlipWordsDemo from "./site_components/Footer";
 
 export default function Home() {
   return (
@@ -12,8 +12,7 @@ export default function Home() {
   
   <Hero />
   <Carousel />
-  <Sparkle />
-  <TimelineDemo />
+  <FlipWordsDemo />
   
   </div>
   );
