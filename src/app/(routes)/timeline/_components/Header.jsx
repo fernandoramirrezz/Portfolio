@@ -12,13 +12,10 @@ export function Header() {
           My Journey
         </h2>
         <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
-        I've been dreaming on becoming a software engineer for 10 years.
+        I've been dreaming on becoming a software engineer for 10+ years.
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-          <button
-            className="scale-90 px-4 py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
-            Scroll Down
-          </button>
+          
         </div>
       </Vortex>
     </div>
