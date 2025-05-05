@@ -53,10 +53,11 @@ export function SocialLinks() {
       },
   ];
   return (
-    <div className="flex items-center justify-center h-[35rem] w-full">
+    <div className="flex max-w-fit fixed bottom-5 inset-x-0 mx-auto z-[5000] pr-2 pl-8 py-2 items-center justify-center space-x-4"
+>
       <FloatingDock
         // only for demo, remove for production
-        mobileClassName="translate-y-20"
+        mobileClassName="translate-y-3"
         items={links} />
     </div>
   );

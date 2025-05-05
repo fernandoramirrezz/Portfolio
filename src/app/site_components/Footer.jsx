@@ -10,7 +10,8 @@ export function FlipWordsDemo() {
         className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
         I'm not only a coder
         <br />
-        But a<FlipWords words={words} />
+        But a<FlipWords words={words}
+        className="text-neutral-900 dark:text-neutral-100" />
       </div>
     </div>
   );

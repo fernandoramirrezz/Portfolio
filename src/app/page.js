@@ -2,8 +2,8 @@ import Image from "next/image";
 import Navbar from "./site_components/Navbar";
 import Hero from "./site_components/Hero";
 import Carousel from "./site_components/Carousel";
-import TimelineDemo from "./(routes)/timeline/_components/Timeline";
 import FlipWordsDemo from "./site_components/Footer";
+import SocialLinks from "./site_components/SocialLinks";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
   <Hero />
   <Carousel />
   <FlipWordsDemo />
+  <SocialLinks />
   
   </div>
   );

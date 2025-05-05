@@ -14,7 +14,7 @@ export function AppleCarousel() {
     <section id="carousel" className="min-h-screen">
     <div className="w-full h-full py-20">
       <h2
-        className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+        className="max-w-7xl pl-4 mx-auto text-2xl md:text-5xl lg:text-6xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
         My Projects
         <br></br>
         Get to know your Developer.
