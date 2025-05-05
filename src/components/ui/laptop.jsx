@@ -17,8 +17,9 @@ export const Laptop = () => {
           />
           <video autoPlay muted loop>
             <source
-              src="https://d1xm195wioio0k.cloudfront.net/images/video/support.mp4"
+              src="laptop.mp4"
               type="video/mp4"
+              
             />
           </video>
         </div>
