@@ -7,8 +7,8 @@ export function FlipWordsDemo() {
   return (
     <div className="h-[20rem] flex justify-center items-center px-4 ">
       <div
-        className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
-        I'm not only a coder
+        className="text-2xl md:text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
+        Not only a coder
         <br />
         But a<FlipWords words={words}
         className="text-neutral-900 dark:text-neutral-100" />

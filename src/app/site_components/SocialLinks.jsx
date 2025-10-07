@@ -49,7 +49,7 @@ export function SocialLinks() {
         icon: (
           <IconFileDescription className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
-        href: "https://www.linkedin.com/in/fernandoramirezjr/overlay/1745541320394/single-media-viewer/?profileId=ACoAADPGQ6gB3GnbiOQpy3PR1l_KmlZpGqKw0qA",
+        href: "https://www.linkedin.com/in/fernandoramirezjr/overlay/1758154622879/single-media-viewer/?profileId=ACoAADPGQ6gB3GnbiOQpy3PR1l_KmlZpGqKw0qA",
       },
   ];
   return (

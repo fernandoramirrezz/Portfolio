@@ -9,8 +9,48 @@ import Web from "./Website";
 export function TimelineDemo() {
   const data = [
     
+    
     {
-      title: "Now 2025",
+  title: "Now 2025",
+  content: (
+    <div>
+      <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+        Released <strong>Still - Scripture Explore App</strong> on iOS App Store — a tranquil scripture exploration app designed for daily reflection and spiritual growth.
+      </p>
+      <div className="grid grid-cols-3 gap-4 mb-8">
+        <img
+          src="/1.png"
+          alt="Still App Home Screen"
+          className="rounded-lg w-full h-auto object-cover shadow-md"
+        />
+        <img
+          src="/2.png"
+          alt="Still App Scripture Explorer"
+          className="rounded-lg w-full h-auto object-cover shadow-md"
+        />
+        <img
+          src="/3.png"
+          alt="Still App Scripture Explorer"
+          className="rounded-lg w-full h-auto object-cover shadow-md"
+        />
+      </div>
+      <p className="text-xs font-normal text-neutral-600 md:text-sm dark:text-neutral-400">
+        Features daily devotionals, personalized reading plans, and verse bookmarking — crafted with React Native, TypeScript, and Firebase.
+      </p>
+      <a 
+        href="https://apps.apple.com/us/app/still-scripture-explore-app/id6753603287" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
+      >
+        View on App Store →
+      </a>
+    </div>
+  ),
+},
+
+    {
+      title: "Mid 2025",
       content: (
         <div>
           <p className="mb-12 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
@@ -139,7 +179,9 @@ export function TimelineDemo() {
 
   ];
   return (
-    <section id="timeline" className="min-h-screen">
+    <section id="timeline" 
+    className="w-[calc(100%-2rem)] mx-auto overflow-hidden bg-gray-100 rounded-xl "
+    >
     <div className="relative w-full overflow-clip">
       <Timeline data={data} />
     </div>

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { FloatingNav } from "@/components/ui/floating-nav";
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import { IconHome, IconMessage, IconUser, IconTimeline } from "@tabler/icons-react";
 
 export function Navbar() {
   const navItems = [
@@ -12,16 +12,16 @@ export function Navbar() {
     },
     {
       name: "About",
-      link: "#carousel",
+      link: "#software-engineering",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Timeline",
       link: "/timeline",
-      icon: (
-        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
-      ),
+      icon:
+        <IconTimeline className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
+   
   ];
   return (
     <div className="relative  w-full">
