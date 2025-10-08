@@ -4,6 +4,90 @@ import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 import { TechCard } from "@/components/ui/tech-card";
 
+// ==================== DATA ARRAYS ====================
+
+const softwareEngineeringData = [
+  {
+    category: "Still",
+    title: "Scripture Explore App.",
+    src: "still.jpg",
+    content: <StillContent />,
+  },
+  {
+    category: "MindStronger",
+    title: "Because men need support too.",
+    src: "IMG_0419.jpg",
+    content: <MindStrongerContent />,
+  },
+  {
+    category: "Pawcket",
+    title: "Your pet's life, powered by tech.",
+    src: "IMG_1050.JPG",
+    content: <PawcketContent />,
+  },
+  {
+    category: "Finance Tracker",
+    title: "Real-time money moves, powered by AI.",
+    src: "IMG_1052.JPG",
+    content: <AIExpenseTrackingContent />,
+  },
+  {
+    category: "SeaSaver",
+    title: "Together we defend the blue planet.",
+    src: "IMG_7886.png",
+    content: <SeaSaverContent />,
+  },
+];
+
+const uiuxData = [
+  {
+    category: "Still Design",
+    title: "Tranquil scripture exploration.",
+    src: "StillUi.png",
+    content: <StillDesignContent />,
+  },
+  {
+    category: "MindStronger Design",
+    title: "Masculine mental wellness UI/UX.",
+    src: "mindstrongerUi.jpeg",
+    content: <MindStrongerDesignContent />,
+  },
+  {
+    category: "SeaSaver Design",
+    title: "Gamifying ocean conservation.",
+    src: "SeasaverUi.png",
+    content: <SeaSaverDesignContent />,
+  },
+  
+];
+
+const dataAnalysisData = [
+  {
+    category: "Customer Churn Analysis",
+    title: "Predicting customer retention with ML.",
+    src: "churn-cover.jpg",
+    content: <CustomerChurnAnalysisContent />,
+  },
+  {
+    category: "Sales Performance Dashboard",
+    title: "Real-time sales intelligence.",
+    src: "sales-cover.jpg",
+    content: <SalesPerformanceContent />,
+  },
+  {
+    category: "Social Media Sentiment",
+    title: "Understanding brand perception at scale.",
+    src: "sentiment-cover.jpg",
+    content: <SocialMediaSentimentContent />,
+  },
+  {
+    category: "Website Traffic Optimization",
+    title: "Data-driven conversion rate optimization.",
+    src: "traffic-cover.jpg",
+    content: <WebsiteTrafficContent />,
+  },
+];
+
 // ==================== SOFTWARE ENGINEERING CAROUSEL ====================
 export function SoftwareEngineeringCarousel() {
   const cards = softwareEngineeringData.map((card, index) => (
@@ -846,89 +930,6 @@ const WebsiteTrafficContent = () => {
   );
 };
 
-// ==================== DATA ARRAYS ====================
-
-const softwareEngineeringData = [
-  {
-    category: "Still",
-    title: "Scripture Explore App.",
-    src: "still.jpg",
-    content: <StillContent />,
-  },
-  {
-    category: "MindStronger",
-    title: "Because men need support too.",
-    src: "IMG_0419.jpg",
-    content: <MindStrongerContent />,
-  },
-  {
-    category: "Pawcket",
-    title: "Your pet's life, powered by tech.",
-    src: "IMG_1050.JPG",
-    content: <PawcketContent />,
-  },
-  {
-    category: "Finance Tracker",
-    title: "Real-time money moves, powered by AI.",
-    src: "IMG_1052.JPG",
-    content: <AIExpenseTrackingContent />,
-  },
-  {
-    category: "SeaSaver",
-    title: "Together we defend the blue planet.",
-    src: "IMG_7886.png",
-    content: <SeaSaverContent />,
-  },
-];
-
-const uiuxData = [
-  {
-    category: "Still Design",
-    title: "Tranquil scripture exploration.",
-    src: "StillUi.png",
-    content: <StillDesignContent />,
-  },
-  {
-    category: "MindStronger Design",
-    title: "Masculine mental wellness UI/UX.",
-    src: "mindstrongerUi.jpeg",
-    content: <MindStrongerDesignContent />,
-  },
-  {
-    category: "SeaSaver Design",
-    title: "Gamifying ocean conservation.",
-    src: "SeasaverUi.png",
-    content: <SeaSaverDesignContent />,
-  },
-  
-];
-
-const dataAnalysisData = [
-  {
-    category: "Customer Churn Analysis",
-    title: "Predicting customer retention with ML.",
-    src: "churn-cover.jpg",
-    content: <CustomerChurnAnalysisContent />,
-  },
-  {
-    category: "Sales Performance Dashboard",
-    title: "Real-time sales intelligence.",
-    src: "sales-cover.jpg",
-    content: <SalesPerformanceContent />,
-  },
-  {
-    category: "Social Media Sentiment",
-    title: "Understanding brand perception at scale.",
-    src: "sentiment-cover.jpg",
-    content: <SocialMediaSentimentContent />,
-  },
-  {
-    category: "Website Traffic Optimization",
-    title: "Data-driven conversion rate optimization.",
-    src: "traffic-cover.jpg",
-    content: <WebsiteTrafficContent />,
-  },
-];
 
 // ==================== EXPORTS ====================
 
