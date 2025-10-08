@@ -89,7 +89,7 @@ const dataAnalysisData = [
 ];
 
 // ==================== SOFTWARE ENGINEERING CAROUSEL ====================
-export function SoftwareEngineeringCarousel() {
+ function SoftwareEngineeringCarousel() {
   const cards = softwareEngineeringData.map((card, index) => (
     <Card key={card.src} card={card} index={index} />
   ));
@@ -109,7 +109,7 @@ export function SoftwareEngineeringCarousel() {
 }
 
 // ==================== UI/UX DESIGN CAROUSEL ====================
-export function UIUXCarousel() {
+ function UIUXCarousel() {
   const cards = uiuxData.map((card, index) => (
     <Card key={card.src} card={card} index={index} />
   ));
@@ -129,7 +129,7 @@ export function UIUXCarousel() {
 }
 
 // ==================== DATA ANALYSIS CAROUSEL ====================
-export function DataAnalysisCarousel() {
+ function DataAnalysisCarousel() {
   const cards = dataAnalysisData.map((card, index) => (
     <Card key={card.src} card={card} index={index} />
   ));
