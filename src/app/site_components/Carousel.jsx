@@ -932,5 +932,5 @@ const dataAnalysisData = [
 
 // ==================== EXPORTS ====================
 
-export { SoftwareEngineeringCarousel, UIUXCarousel, DataAnalysisCarousel };
+export { UIUXCarousel, DataAnalysisCarousel };
 export default SoftwareEngineeringCarousel;
