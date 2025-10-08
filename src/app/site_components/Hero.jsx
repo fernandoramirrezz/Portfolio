@@ -7,7 +7,7 @@ import { MapPin } from "lucide-react"; // ⬅️ import the icon
 import SocialLinks from "./SocialLinks";
 
 export function Hero() {
-  const words = ["Software Engineer", "Full Stack Developer", "Data Scientist", "Data Analytics" ,"UI/UX"];
+  const words = ["Software Engineer", "Full Stack Developer" ,"UI/UX"];
 
   return (
     <section id="home" className="w-[calc(100%] mx-auto rounded-xl h-[45rem] overflow-hidden">

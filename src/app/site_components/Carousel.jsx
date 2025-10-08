@@ -481,7 +481,7 @@ const StillDesignContent = () => {
         </p>
 
         <img
-          src="stillcomponents.jpeg"
+          src="Stillcomponents.jpeg"
           alt="Still Design System"
           height="500"
           width="500"
@@ -517,7 +517,7 @@ const StillDesignContent = () => {
 
         <div className="flex flex-wrap justify-center items-center gap-6 mt-8">
           <img src="IMG_1460.PNG" alt="Still Prototype" height="100" width="100" className="w-1/4 min-w-[150px] h-auto object-contain rounded-3xl" />
-          <img src="stillapp.png"  alt="Still Wireframes" height="100" width="100" className="w-1/4 min-w-[150px] h-auto object-contain rounded-3xl" />
+          <img src="Stillapp.PNG"  alt="Still Wireframes" height="100" width="100" className="w-1/4 min-w-[150px] h-auto object-contain rounded-3xl" />
           <img src="IMG_1495.PNG" alt="Still Design System" height="100" width="100" className="w-1/4 min-w-[150px] h-auto object-contain rounded-3xl" />
         </div>
       </section>
@@ -832,7 +832,7 @@ const uiuxData = [
   {
     category: "MindStronger Design",
     title: "Masculine mental wellness UI/UX.",
-    src: "mindstrongerUi.jpeg",
+    src: "mindstrongerUI.jpeg",
     content: <MindStrongerDesignContent />,
   },
   {
