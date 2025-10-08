@@ -4,149 +4,6 @@ import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 import { TechCard } from "@/components/ui/tech-card";
 
-// ==================== DATA ARRAYS ====================
-
-const softwareEngineeringData = [
-  {
-    category: "Still",
-    title: "Scripture Explore App.",
-    src: "still.jpg",
-    content: <StillContent />,
-  },
-  {
-    category: "MindStronger",
-    title: "Because men need support too.",
-    src: "IMG_0419.jpg",
-    content: <MindStrongerContent />,
-  },
-  {
-    category: "Pawcket",
-    title: "Your pet's life, powered by tech.",
-    src: "IMG_1050.JPG",
-    content: <PawcketContent />,
-  },
-  {
-    category: "Finance Tracker",
-    title: "Real-time money moves, powered by AI.",
-    src: "IMG_1052.JPG",
-    content: <AIExpenseTrackingContent />,
-  },
-  {
-    category: "SeaSaver",
-    title: "Together we defend the blue planet.",
-    src: "IMG_7886.png",
-    content: <SeaSaverContent />,
-  },
-];
-
-const uiuxData = [
-  {
-    category: "Still Design",
-    title: "Tranquil scripture exploration.",
-    src: "StillUi.png",
-    content: <StillDesignContent />,
-  },
-  {
-    category: "MindStronger Design",
-    title: "Masculine mental wellness UI/UX.",
-    src: "mindstrongerUi.jpeg",
-    content: <MindStrongerDesignContent />,
-  },
-  {
-    category: "SeaSaver Design",
-    title: "Gamifying ocean conservation.",
-    src: "SeasaverUi.png",
-    content: <SeaSaverDesignContent />,
-  },
-  
-];
-
-const dataAnalysisData = [
-  {
-    category: "Customer Churn Analysis",
-    title: "Predicting customer retention with ML.",
-    src: "churn-cover.jpg",
-    content: <CustomerChurnAnalysisContent />,
-  },
-  {
-    category: "Sales Performance Dashboard",
-    title: "Real-time sales intelligence.",
-    src: "sales-cover.jpg",
-    content: <SalesPerformanceContent />,
-  },
-  {
-    category: "Social Media Sentiment",
-    title: "Understanding brand perception at scale.",
-    src: "sentiment-cover.jpg",
-    content: <SocialMediaSentimentContent />,
-  },
-  {
-    category: "Website Traffic Optimization",
-    title: "Data-driven conversion rate optimization.",
-    src: "traffic-cover.jpg",
-    content: <WebsiteTrafficContent />,
-  },
-];
-
-// ==================== SOFTWARE ENGINEERING CAROUSEL ====================
- function SoftwareEngineeringCarousel() {
-  const cards = softwareEngineeringData.map((card, index) => (
-    <Card key={card.src} card={card} index={index} />
-  ));
-
-  return (
-    <section id="software-engineering" className="min-h-screen">
-      <div className="w-full h-full py-20">
-        <h2 className="max-w-7xl pl-4 mx-auto text-2xl md:text-5xl lg:text-6xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-          My Projects
-          <br />
-          Full-stack applications.
-        </h2>
-        <Carousel items={cards} />
-      </div>
-    </section>
-  );
-}
-
-// ==================== UI/UX DESIGN CAROUSEL ====================
- function UIUXCarousel() {
-  const cards = uiuxData.map((card, index) => (
-    <Card key={card.src} card={card} index={index} />
-  ));
-
-  return (
-    <section id="ui-ux-design" className="min-h-screen ">
-      <div className="w-full h-full ">
-        <h2 className="max-w-7xl pl-4 mx-auto text-2xl md:text-5xl lg:text-6xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-          UI/UX Portfolio
-          <br />
-          Aesthetic, intuitive experiences.
-        </h2>
-        <Carousel items={cards} />
-      </div>
-    </section>
-  );
-}
-
-// ==================== DATA ANALYSIS CAROUSEL ====================
- function DataAnalysisCarousel() {
-  const cards = dataAnalysisData.map((card, index) => (
-    <Card key={card.src} card={card} index={index} />
-  ));
-
-  return (
-    <section id="data-analysis" className="min-h-screen">
-      <div className="w-full h-full">
-        <h2 className="max-w-7xl pl-4 mx-auto text-2xl md:text-5xl lg:text-6xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-          Data Analysis Projects
-          <br />
-         Turning data into actionable insights.
-        </h2>
-        <Carousel items={cards} />
-      </div>
-    </section>
-  );
-}
 
 // ==================== CONTENT COMPONENTS ====================
 
@@ -930,8 +787,152 @@ const WebsiteTrafficContent = () => {
   );
 };
 
+// ==================== DATA ARRAYS ====================
+
+const softwareEngineeringData = [
+  {
+    category: "Still",
+    title: "Scripture Explore App.",
+    src: "still.jpg",
+    content: <StillContent />,
+  },
+  {
+    category: "MindStronger",
+    title: "Because men need support too.",
+    src: "IMG_0419.jpg",
+    content: <MindStrongerContent />,
+  },
+  {
+    category: "Pawcket",
+    title: "Your pet's life, powered by tech.",
+    src: "IMG_1050.JPG",
+    content: <PawcketContent />,
+  },
+  {
+    category: "Finance Tracker",
+    title: "Real-time money moves, powered by AI.",
+    src: "IMG_1052.JPG",
+    content: <AIExpenseTrackingContent />,
+  },
+  {
+    category: "SeaSaver",
+    title: "Together we defend the blue planet.",
+    src: "IMG_7886.png",
+    content: <SeaSaverContent />,
+  },
+];
+
+const uiuxData = [
+  {
+    category: "Still Design",
+    title: "Tranquil scripture exploration.",
+    src: "StillUi.png",
+    content: <StillDesignContent />,
+  },
+  {
+    category: "MindStronger Design",
+    title: "Masculine mental wellness UI/UX.",
+    src: "mindstrongerUi.jpeg",
+    content: <MindStrongerDesignContent />,
+  },
+  {
+    category: "SeaSaver Design",
+    title: "Gamifying ocean conservation.",
+    src: "SeasaverUi.png",
+    content: <SeaSaverDesignContent />,
+  },
+  
+];
+
+const dataAnalysisData = [
+  {
+    category: "Customer Churn Analysis",
+    title: "Predicting customer retention with ML.",
+    src: "churn-cover.jpg",
+    content: <CustomerChurnAnalysisContent />,
+  },
+  {
+    category: "Sales Performance Dashboard",
+    title: "Real-time sales intelligence.",
+    src: "sales-cover.jpg",
+    content: <SalesPerformanceContent />,
+  },
+  {
+    category: "Social Media Sentiment",
+    title: "Understanding brand perception at scale.",
+    src: "sentiment-cover.jpg",
+    content: <SocialMediaSentimentContent />,
+  },
+  {
+    category: "Website Traffic Optimization",
+    title: "Data-driven conversion rate optimization.",
+    src: "traffic-cover.jpg",
+    content: <WebsiteTrafficContent />,
+  },
+];
+
+
+
+// ==================== SOFTWARE ENGINEERING CAROUSEL ====================
+function SoftwareEngineeringCarousel() {
+  const cards = softwareEngineeringData.map((card, index) => (
+    <Card key={card.src} card={card} index={index} />
+  ));
+
+  return (
+    <section id="software-engineering" className="min-h-screen">
+      <div className="w-full h-full py-20">
+        <h2 className="max-w-7xl pl-4 mx-auto text-2xl md:text-5xl lg:text-6xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+          My Projects
+          <br />
+          Full-stack applications.
+        </h2>
+        <Carousel items={cards} />
+      </div>
+    </section>
+  );
+}
+
+// ==================== UI/UX DESIGN CAROUSEL ====================
+function UIUXCarousel() {
+  const cards = uiuxData.map((card, index) => (
+    <Card key={card.src} card={card} index={index} />
+  ));
+
+  return (
+    <section id="ui-ux-design" className="min-h-screen ">
+      <div className="w-full h-full ">
+        <h2 className="max-w-7xl pl-4 mx-auto text-2xl md:text-5xl lg:text-6xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+          UI/UX Portfolio
+          <br />
+          Aesthetic, intuitive experiences.
+        </h2>
+        <Carousel items={cards} />
+      </div>
+    </section>
+  );
+}
+
+// ==================== DATA ANALYSIS CAROUSEL ====================
+function DataAnalysisCarousel() {
+  const cards = dataAnalysisData.map((card, index) => (
+    <Card key={card.src} card={card} index={index} />
+  ));
+
+  return (
+    <section id="data-analysis" className="min-h-screen">
+      <div className="w-full h-full">
+        <h2 className="max-w-7xl pl-4 mx-auto text-2xl md:text-5xl lg:text-6xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+          Data Analysis Projects
+          <br />
+         Turning data into actionable insights.
+        </h2>
+        <Carousel items={cards} />
+      </div>
+    </section>
+  );
+}
 
 // ==================== EXPORTS ====================
 
-export { UIUXCarousel, DataAnalysisCarousel };
-export default SoftwareEngineeringCarousel;
+export { SoftwareEngineeringCarousel, UIUXCarousel, DataAnalysisCarousel };

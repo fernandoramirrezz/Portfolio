@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Navbar from "./site_components/Navbar";
 import Hero from "./site_components/Hero";
-import SoftwareEngineeringCarousel, { UIUXCarousel, DataAnalysisCarousel } from "./site_components/Carousel";
-import FlipWordsDemo from "./site_components/Footer";
+// In page.js
+import { SoftwareEngineeringCarousel, UIUXCarousel, DataAnalysisCarousel } from "./site_components/Carousel";import FlipWordsDemo from "./site_components/Footer";
 import SocialLinks from "./site_components/SocialLinks";
 import Cards from "@/components/ui/Cards";
 import { DotBackground } from "@/components/ui/grid-bg";
