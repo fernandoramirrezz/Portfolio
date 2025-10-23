@@ -28,11 +28,13 @@ export function TimelineDemo() {
           alt="Still App Scripture Explorer"
           className="rounded-lg w-full h-auto object-cover shadow-md"
         />
-        <img
-          src="/3.png"
-          alt="Still App Scripture Explorer"
-          className="rounded-lg w-full h-auto object-cover shadow-md"
-        />
+         <video autoPlay muted loop>
+            <source
+              src="Still.mp4"
+              type="video/mp4"
+              className="rounded-lg w-full h-auto object-cover shadow-md"
+            />
+          </video>
       </div>
       <p className="text-xs font-normal text-neutral-600 md:text-sm dark:text-neutral-400">
         Features daily devotionals, personalized reading plans, and verse bookmarking — crafted with React Native, TypeScript, and Firebase.

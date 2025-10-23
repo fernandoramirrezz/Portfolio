@@ -11,12 +11,12 @@ export function Navbar() {
       icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      name: "About",
-      link: "#software-engineering",
+      name: "Projects",
+      link: "/#software-engineering",
       icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
-      name: "Timeline",
+      name: "About",
       link: "/timeline",
       icon:
         <IconTimeline className="h-4 w-4 text-neutral-500 dark:text-white" />,
