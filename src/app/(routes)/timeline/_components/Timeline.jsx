@@ -182,7 +182,7 @@ export function TimelineDemo() {
   ];
   return (
     <section id="timeline" 
-    className="w-[calc(100%-2rem)] mx-auto overflow-hidden bg-gray-100 rounded-xl "
+    className="w-[calc(100%-2rem)] mx-auto overflow-hidden "
     >
     <div className="relative w-full overflow-clip">
       <Timeline data={data} />
