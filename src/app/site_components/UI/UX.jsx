@@ -351,7 +351,7 @@ const StillDesignContent = ({ onClose }) => {
         <p className="text-sm text-black/60 dark:text-white/60">Data points collected from surveys, interviews, and analytics</p>
       </div>
       <div>
-        <p className="text-4xl md:text-5xl font-light mb-2">5+</p>
+        <p className="text-4xl md:text-5xl font-light mb-2">3+</p>
         <p className="text-sm text-black/60 dark:text-white/60">Hours of user interviews</p>
       </div>
       <div>
@@ -689,9 +689,9 @@ const SeaSaverContent = ({ onClose }) => {
           {/* Project details row */}
           <div className="flex items-center justify-center gap-8 md:gap-12 flex-wrap opacity-60">
             <div className="text-xs font-light tracking-widest">UI/UX DESIGNER</div>
-            <div className="text-xs font-light tracking-widest">6 WEEKS</div>
-            <div className="text-xs font-light tracking-widest">iOS & ANDROID</div>
-            <div className="text-xs font-light tracking-widest">MOBILE DESIGN</div>
+            <div className="text-xs font-light tracking-widest">48 HOURS</div>
+            <div className="text-xs font-light tracking-widest">FIGMA</div>
+            <div className="text-xs font-light tracking-widest">WINNING PROJECT</div>
           </div>
         </div>
 
@@ -715,7 +715,7 @@ const SeaSaverContent = ({ onClose }) => {
             </div>
             <h3 className="text-xl font-light mb-4 tracking-wide">ROLE</h3>
             <p className="text-sm text-black/50 dark:text-white/50 leading-relaxed mb-6">
-              UI/UX Designer responsible for user research, wireframing, prototyping, visual design, and usability testing of the mobile experience.
+              Lead UI/UX Designer in a cross-functional team. Collaborated intensively under tight time constraints, navigating design decisions through team discussions, prototyping solutions, and rapid iteration to deliver a complete mobile experience.
             </p>
           </div>
 
@@ -728,7 +728,7 @@ const SeaSaverContent = ({ onClose }) => {
             </div>
             <h3 className="text-xl font-light mb-4 tracking-wide">DESIGN TOOLS</h3>
             <p className="text-sm text-black/50 dark:text-white/50 leading-relaxed mb-6">
-              Figma for design and prototyping, FigJam for user flows, Notion for documentation, and Maze for usability testing.
+              Figma for rapid design and prototyping, FigJam for quick team alignment, and constant screen-sharing for real-time feedback loops with developers.
             </p>
             <button 
               onClick={scrollToWireframe}
@@ -750,8 +750,17 @@ const SeaSaverContent = ({ onClose }) => {
             </div>
             <h3 className="text-xl font-light mb-4 tracking-wide">IMPACT</h3>
             <p className="text-sm text-black/50 dark:text-white/50 leading-relaxed mb-6">
-              Designed an engaging user experience that increased volunteer retention and made environmental action feel rewarding.
+              Our team's solution won first place by delivering an engaging, fully-functional design that demonstrated innovation in environmental gamification under intense time pressure. The judges praised our cohesive execution and user-centered approach.
             </p>
+            <button 
+  onClick={() => window.open("https://devpost.com/software/seasaver", "_blank")}
+  className="text-sm text-black/40 dark:text-white/40 hover:text-black dark:hover:text-white transition-colors flex items-center gap-2 cursor-pointer"
+>
+  VIEW DEVPOST
+  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+  </svg>
+</button>
           </div>
         </div>
       </section>
@@ -817,9 +826,9 @@ const SeaSaverContent = ({ onClose }) => {
         
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <div>
-            <h3 className="text-2xl font-medium mb-6">Team Structure</h3>
+            <h3 className="text-2xl font-medium mb-6">Team Dynamics</h3>
             <p className="leading-relaxed text-black/70 dark:text-white/70 mb-6">
-              Our 4-person team consisted of a Product Manager, two Full-Stack Developers, and myself as the UI/UX Designer. We operated in weekly sprints with daily standups, design critiques, and end-of-week demos.
+              Our 4-person team came together with just 48 hours to build a complete solution. Working with two developers and a product strategist, we had to make rapid decisions, navigate differing opinions, and stay focused under intense time pressure.
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-4">
@@ -830,7 +839,7 @@ const SeaSaverContent = ({ onClose }) => {
                 </div>
                 <div>
                   <p className="font-medium mb-1">UI/UX Designer (Me)</p>
-                  <p className="text-sm text-black/60 dark:text-white/60">User research, wireframes, prototypes, visual design, usability testing</p>
+                  <p className="text-sm text-black/60 dark:text-white/60">Rapid wireframing, visual design, prototype creation, and real-time feedback integration</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -840,8 +849,8 @@ const SeaSaverContent = ({ onClose }) => {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-medium mb-1">Full-Stack Developers (2)</p>
-                  <p className="text-sm text-black/60 dark:text-white/60">Built mobile app, backend API, database, and AI integrations</p>
+                  <p className="font-medium mb-1">Developers (2)</p>
+                  <p className="text-sm text-black/60 dark:text-white/60">Built functional prototype with backend systems and core features</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -851,93 +860,93 @@ const SeaSaverContent = ({ onClose }) => {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-medium mb-1">Product Manager</p>
-                  <p className="text-sm text-black/60 dark:text-white/60">Defined requirements, coordinated sprints, stakeholder communication</p>
+                  <p className="font-medium mb-1">Product Strategist</p>
+                  <p className="text-sm text-black/60 dark:text-white/60">Defined scope, prioritized features, and prepared presentation materials</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div>
-            <h3 className="text-2xl font-medium mb-6">My Design Contributions</h3>
+            <h3 className="text-2xl font-medium mb-6">Navigating Challenges & Moving Forward</h3>
             <p className="leading-relaxed text-black/70 dark:text-white/70 mb-6">
-              As the UI/UX designer, I owned the entire design process from initial research through final handoff, ensuring the product was both beautiful and user-centered.
+              With such limited time, we faced disagreements about feature priorities, design direction, and technical feasibility. Here's how we pushed through:
             </p>
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <p className="text-black/70 dark:text-white/70">Conducted user interviews and competitive analysis research</p>
+                <p className="text-black/70 dark:text-white/70">Rapid competitive research (2 hours) to align on market gaps and opportunities</p>
               </div>
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <p className="text-black/70 dark:text-white/70">Created user personas, journey maps, and information architecture</p>
+                <p className="text-black/70 dark:text-white/70">Quick wireframing sessions where the team voted on concepts to move forward</p>
               </div>
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <p className="text-black/70 dark:text-white/70">Designed low-fi wireframes through high-fidelity mockups in Figma</p>
+                <p className="text-black/70 dark:text-white/70">Real-time design-dev collaboration with constant check-ins on feasibility</p>
               </div>
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <p className="text-black/70 dark:text-white/70">Built interactive prototypes for usability testing and developer handoff</p>
+                <p className="text-black/70 dark:text-white/70">Designed high-fidelity mockups in parallel with development to save time</p>
               </div>
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <p className="text-black/70 dark:text-white/70">Facilitated usability testing sessions and iterated based on feedback</p>
+                <p className="text-black/70 dark:text-white/70">Built interactive prototype for the judges while developers finalized the live demo</p>
               </div>
               <div className="flex items-start gap-3">
                 <svg className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <p className="text-black/70 dark:text-white/70">Created design system with reusable components for consistency</p>
+                <p className="text-black/70 dark:text-white/70">Made tough calls on scope cuts when features weren't achievable in time</p>
               </div>
             </div>
           </div>
         </div>
 
         <div className="bg-black/5 dark:bg-white/5 rounded-2xl p-8 md:p-12 border border-black/10 dark:border-white/10">
-          <h3 className="text-2xl font-medium mb-6">Design Collaboration & Workflow</h3>
+          <h3 className="text-2xl font-medium mb-6">Critical Moments & Decisions</h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center gap-3 mb-3">
-                <svg className="w-6 h-6 text-black/60 dark:text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+                <svg className="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <h4 className="font-medium">Figma</h4>
+                <h4 className="font-medium">Hour 6: Feature Conflict</h4>
               </div>
               <p className="text-sm text-black/60 dark:text-white/60 leading-relaxed">
-                Primary design tool for wireframes, mockups, prototypes, and design system. Used dev mode for developer handoff with specs and assets.
+                Team disagreed on gamification complexity. Developers worried about time. I advocated for simplified version focusing on core mechanics—we voted and moved forward.
               </p>
             </div>
             <div>
               <div className="flex items-center gap-3 mb-3">
-                <svg className="w-6 h-6 text-black/60 dark:text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                <svg className="w-6 h-6 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
-                <h4 className="font-medium">Weekly Critiques</h4>
+                <h4 className="font-medium">Hour 24: Pivot Point</h4>
               </div>
               <p className="text-sm text-black/60 dark:text-white/60 leading-relaxed">
-                Presented design iterations to the team every Friday. Gathered feedback on usability, visual hierarchy, and technical feasibility.
+                Rewards catalog wasn't building in time. Strategist suggested cutting it; I proposed a static prototype version to show vision. We compromised and kept it.
               </p>
             </div>
             <div>
               <div className="flex items-center gap-3 mb-3">
-                <svg className="w-6 h-6 text-black/60 dark:text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                <svg className="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <h4 className="font-medium">Documentation</h4>
+                <h4 className="font-medium">Hour 42: Final Push</h4>
               </div>
               <p className="text-sm text-black/60 dark:text-white/60 leading-relaxed">
-                Maintained design documentation in Notion covering design decisions, user flows, component guidelines, and usability test findings.
+                Everyone exhausted but aligned. Last-minute design polish while devs debugged. Team came together beautifully—no more disagreements, just execution.
               </p>
             </div>
           </div>
@@ -945,9 +954,9 @@ const SeaSaverContent = ({ onClose }) => {
 
         <div className="mt-12 border-l-4 border-blue-500 pl-6">
           <p className="text-lg leading-relaxed text-black/70 dark:text-white/70 italic mb-3">
-            "Working cross-functionally taught me to design with constraints in mind. Regular conversations with developers helped me understand technical limitations early, leading to more realistic and implementable designs. This collaboration made the final product stronger."
+            "The intense time pressure actually helped us. We couldn't overthink decisions—we had to trust each other, make calls quickly, and keep moving. When disagreements came up, we talked it out fast and voted. That's how we won."
           </p>
-          <p className="text-sm text-black/40 dark:text-white/40">— Personal reflection on design collaboration</p>
+          <p className="text-sm text-black/40 dark:text-white/40">— Reflection on team dynamics under pressure</p>
         </div>
       </section>
 
@@ -1019,38 +1028,16 @@ const SeaSaverContent = ({ onClose }) => {
         {/* Wireframe Examples */}
         <div className="space-y-16">
           <div>
-            <h3 className="text-2xl font-medium mb-6">Low-Fidelity Wireframes</h3>
+            <h3 className="text-2xl font-medium mb-6">Wireframes</h3>
             <p className="text-black/70 dark:text-white/70 mb-8 max-w-3xl">
               These early wireframes focused on core user flows: onboarding, mission logging, and rewards redemption. The goal was to test information hierarchy and navigation patterns before investing in visual design.
             </p>
             <div className="bg-gray-100 dark:bg-gray-900 rounded-2xl p-12 border-2 border-dashed border-black/20 dark:border-white/20">
-              <div className="grid md:grid-cols-3 gap-6">
-                {/* Placeholder for wireframe images */}
-                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 aspect-[9/16] flex items-center justify-center border border-black/10 dark:border-white/10">
-                  <div className="text-center text-black/40 dark:text-white/40">
-                    <svg className="w-12 h-12 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <p className="text-sm">Onboarding Flow<br/>Wireframe</p>
-                  </div>
-                </div>
-                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 aspect-[9/16] flex items-center justify-center border border-black/10 dark:border-white/10">
-                  <div className="text-center text-black/40 dark:text-white/40">
-                    <svg className="w-12 h-12 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <p className="text-sm">Mission Logging<br/>Wireframe</p>
-                  </div>
-                </div>
-                <div className="bg-white dark:bg-gray-800 rounded-xl p-6 aspect-[9/16] flex items-center justify-center border border-black/10 dark:border-white/10">
-                  <div className="text-center text-black/40 dark:text-white/40">
-                    <svg className="w-12 h-12 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                    <p className="text-sm">Rewards Page<br/>Wireframe</p>
-                  </div>
-                </div>
-              </div>
+              <div ref={wireframeRef} className="flex flex-wrap justify-center items-center gap-8">
+              <img src="/SeaProfile.png" alt="SeaSaver Profile screen showing user stats and achievements" className="w-64 h-auto object-contain rounded-2xl shadow-2xl" />
+              <img src="/SeaHome.png" alt="SeaSaver Home screen with mission feed" className="w-64 h-auto object-contain rounded-2xl shadow-2xl" />
+              <img src="/SeaGame.png" alt="SeaSaver Gamification features and leaderboard" className="w-64 h-auto object-contain rounded-2xl shadow-2xl" />
+            </div>
             </div>
             <div className="mt-6 text-sm text-black/60 dark:text-white/60">
               <p><strong>Key decisions from wireframing:</strong></p>
@@ -1067,10 +1054,10 @@ const SeaSaverContent = ({ onClose }) => {
             <p className="text-black/70 dark:text-white/70 mb-8 max-w-3xl">
               After validating the wireframes, I created high-fidelity designs with visual styling, color palette, typography, and micro-interactions. The design system emphasized ocean themes with blues and greens while maintaining accessibility standards.
             </p>
-            <div ref={wireframeRef} className="flex flex-wrap justify-center items-center gap-8">
-              <img src="/SeaProfile.png" alt="SeaSaver Profile screen showing user stats and achievements" className="w-64 h-auto object-contain rounded-2xl shadow-2xl" />
-              <img src="/SeaHome.png" alt="SeaSaver Home screen with mission feed" className="w-64 h-auto object-contain rounded-2xl shadow-2xl" />
-              <img src="/SeaGame.png" alt="SeaSaver Gamification features and leaderboard" className="w-64 h-auto object-contain rounded-2xl shadow-2xl" />
+            <div className="bg-gray-100 dark:bg-gray-900 rounded-2xl p-12 border-2 border-dashed border-black/20 dark:border-white/20">
+              <div ref={wireframeRef} className="flex flex-wrap justify-center items-center gap-8">
+              <img src="/SeaWireframe.png" alt="SeaSaver Home screen with mission feed" className="w-full h-auto object-contain rounded-2xl shadow-2xl" />
+            </div>
             </div>
           </div>
         </div>
@@ -1131,28 +1118,28 @@ const SeaSaverContent = ({ onClose }) => {
           </div>
 
           <div>
-            <h3 className="text-2xl font-medium mb-6">Usability Testing</h3>
+            <h3 className="text-2xl font-medium mb-6">Rapid Prototype Testing</h3>
             <p className="leading-relaxed text-black/70 dark:text-white/70 mb-6">
-              Conducted 5 moderated usability tests with target users (environmental volunteers ages 18-35). Each session lasted 45 minutes and focused on key user flows and pain points.
+              During the final 12 hours, we conducted quick guerrilla testing with 3 volunteers to validate core flows. Each session was 15 minutes focused on mission logging and rewards—just enough to catch critical usability issues before submission.
             </p>
             <div className="bg-black/5 dark:bg-white/5 rounded-xl p-6 border border-black/10 dark:border-white/10">
-              <h4 className="font-medium mb-4">Testing Methodology</h4>
+              <h4 className="font-medium mb-4">Testing Approach</h4>
               <div className="space-y-3 text-sm">
                 <div>
                   <p className="font-medium text-black/80 dark:text-white/80 mb-1">Participants:</p>
-                  <p className="text-black/60 dark:text-white/60">5 volunteers (3 experienced, 2 first-timers)</p>
+                  <p className="text-black/60 dark:text-white/60">3 volunteers recruited from our networks</p>
                 </div>
                 <div>
                   <p className="font-medium text-black/80 dark:text-white/80 mb-1">Format:</p>
-                  <p className="text-black/60 dark:text-white/60">Remote moderated sessions via Zoom + Maze</p>
+                  <p className="text-black/60 dark:text-white/60">Quick remote sessions via video call with prototype</p>
                 </div>
                 <div>
                   <p className="font-medium text-black/80 dark:text-white/80 mb-1">Key Tasks:</p>
-                  <p className="text-black/60 dark:text-white/60">Complete onboarding, log a mission, redeem a reward</p>
+                  <p className="text-black/60 dark:text-white/60">Log a cleanup mission, check leaderboard, browse rewards</p>
                 </div>
                 <div>
-                  <p className="font-medium text-black/80 dark:text-white/80 mb-1">Metrics:</p>
-                  <p className="text-black/60 dark:text-white/60">Task completion rate, time on task, error rate, satisfaction score</p>
+                  <p className="font-medium text-black/80 dark:text-white/80 mb-1">Focus:</p>
+                  <p className="text-black/60 dark:text-white/60">Major blockers and confusion points only—no time for minor issues</p>
                 </div>
               </div>
             </div>
@@ -1161,7 +1148,7 @@ const SeaSaverContent = ({ onClose }) => {
 
         {/* Testing Results */}
         <div className="bg-gradient-to-br from-blue-50 to-green-50 dark:from-blue-950/20 dark:to-green-950/20 rounded-2xl p-8 md:p-12 border border-blue-200 dark:border-blue-900">
-          <h3 className="text-2xl font-medium mb-8">Key Findings from Usability Testing</h3>
+          <h3 className="text-2xl font-medium mb-8">Quick Wins & Last-Minute Fixes</h3>
           
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
@@ -1172,10 +1159,10 @@ const SeaSaverContent = ({ onClose }) => {
                 What Worked
               </h4>
               <ul className="space-y-2 text-sm text-black/70 dark:text-white/70">
-                <li>• Gamification elements were immediately engaging and intuitive</li>
-                <li>• Visual progress tracking exceeded user expectations</li>
-                <li>• Rewards catalog was clear and motivating</li>
-                <li>• 92% task completion rate for mission logging</li>
+                <li>• Gamification was immediately engaging—all testers smiled during mission logging</li>
+                <li>• Visual progress tracking resonated strongly with volunteers</li>
+                <li>• Rewards catalog was motivating and clear</li>
+                <li>• 100% completion rate on core mission flow</li>
               </ul>
             </div>
             <div>
@@ -1186,21 +1173,21 @@ const SeaSaverContent = ({ onClose }) => {
                 Pain Points
               </h4>
               <ul className="space-y-2 text-sm text-black/70 dark:text-white/70">
-                <li>• Users initially confused by points vs. impact metrics</li>
-                <li>• Photo upload step in mission logging felt unnecessary</li>
-                <li>• Leaderboard placement wasn't clear on first view</li>
-                <li>• Onboarding was 30 seconds too long on average</li>
+                <li>• Initial confusion: "Are points and impact the same thing?"</li>
+                <li>• Photo requirement felt like unnecessary friction</li>
+                <li>• Leaderboard: "Where am I on this list?"</li>
+                <li>• Onboarding felt slightly long for the context</li>
               </ul>
             </div>
           </div>
 
           <div className="bg-white/80 dark:bg-black/20 rounded-xl p-6 border border-black/10 dark:border-white/10">
-            <h4 className="font-medium mb-3">Design Iterations from Testing</h4>
+            <h4 className="font-medium mb-3">Critical Changes Made in Final Hours</h4>
             <div className="space-y-2 text-sm text-black/70 dark:text-white/70">
-              <p>→ Added a tooltip explaining the difference between "Points" (gamification) and "Impact" (environmental)</p>
-              <p>→ Made photo upload optional with an incentive bonus for including it</p>
-              <p>→ Redesigned leaderboard with clearer visual hierarchy and user position highlight</p>
-              <p>→ Reduced onboarding from 5 screens to 3 screens by combining welcome + value proposition</p>
+              <p>→ Added tooltip for points vs. impact after tester confusion—implemented in 20 minutes</p>
+              <p>→ Made photo upload optional when testers felt it was too much friction</p>
+              <p>→ Fixed leaderboard visual hierarchy issue that made user placement unclear</p>
+              <p>→ Streamlined onboarding flow after feedback that it felt too long</p>
             </div>
           </div>
         </div>
@@ -1264,34 +1251,34 @@ const SeaSaverContent = ({ onClose }) => {
           visibleSections.has(6) ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
         }`}
       >
-        <p className="text-sm tracking-wider mb-8 text-black/40 dark:text-white/40">IMPACT & RESULTS</p>
+        <p className="text-sm tracking-wider mb-8 text-black/40 dark:text-white/40">THE OUTCOME</p>
         <h2 className="text-5xl md:text-6xl font-light mb-16">
-          Turning Cleanup Into a Movement
+          First Place 🏆
         </h2>
         <p className="text-lg md:text-xl leading-relaxed max-w-3xl mb-12" style={{fontFamily: 'system-ui, -apple-system, sans-serif'}}>
-          The redesigned experience drove significant increases in user engagement and retention during beta testing.
+          After 48 hours of intense collaboration, design iterations, and late-night problem-solving, our team won first place. The judges praised our user-centered approach, cohesive execution, and innovative take on environmental gamification.
         </p>
         
         <div className="grid md:grid-cols-3 gap-12 mb-16">
           <div className="text-center">
-            <p className="text-6xl font-light mb-3">500+</p>
-            <p className="text-sm text-black/60 dark:text-white/60">Pounds of waste tracked in beta testing</p>
+            <p className="text-6xl font-light mb-3">1st</p>
+            <p className="text-sm text-black/60 dark:text-white/60">Place out of 30+ competing teams</p>
           </div>
           <div className="text-center">
-            <p className="text-6xl font-light mb-3">89%</p>
-            <p className="text-sm text-black/60 dark:text-white/60">Users engaged with rewards system</p>
+            <p className="text-6xl font-light mb-3">48</p>
+            <p className="text-sm text-black/60 dark:text-white/60">Hours from concept to working prototype</p>
           </div>
           <div className="text-center">
-            <p className="text-6xl font-light mb-3">72%</p>
-            <p className="text-sm text-black/60 dark:text-white/60">Completed at least 3 missions per week</p>
+            <p className="text-6xl font-light mb-3">100%</p>
+            <p className="text-sm text-black/60 dark:text-white/60">Team collaboration despite challenges</p>
           </div>
         </div>
 
         <div className="border-l-2 border-black dark:border-white pl-6 py-6">
           <p className="text-xl font-light italic mb-4">
-            "The app makes beach cleanups actually fun. I love seeing my impact grow and competing with friends on the leaderboard. The rewards are a nice bonus!"
+            "SeaSaver stood out for its holistic approach—beautiful design paired with thoughtful UX and a clear understanding of user motivation. This team delivered a complete vision under incredible time pressure."
           </p>
-          <p className="text-sm text-black/40 dark:text-white/40">— Beta tester and environmental volunteer, age 24</p>
+          <p className="text-sm text-black/40 dark:text-white/40">— Judge's feedback</p>
         </div>
       </section>
 
@@ -1309,37 +1296,37 @@ const SeaSaverContent = ({ onClose }) => {
         
         <div className="space-y-12">
           <div>
-            <h3 className="text-2xl font-medium mb-4">Design Process Wins</h3>
+            <h3 className="text-2xl font-medium mb-4">Designing Under Pressure</h3>
             <p className="leading-relaxed text-black/70 dark:text-white/70 mb-4">
-              Starting with low-fidelity wireframes and testing early saved weeks of rework. User feedback on wireframes revealed assumptions I had made that didn't match real user mental models. Iterating on structure before visual design was critical.
+              48 hours forced me to trust my instincts and iterate rapidly. I couldn't overthink every decision—I had to wireframe fast, get team feedback, and move to high-fidelity immediately. This constraint made me a more decisive designer and taught me to separate "nice-to-haves" from "must-haves" instantly.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-medium mb-4">The Power of Prototyping</h3>
+            <h3 className="text-2xl font-medium mb-4">Navigating Team Disagreements</h3>
             <p className="leading-relaxed text-black/70 dark:text-white/70 mb-4">
-              Creating a high-fidelity interactive prototype paid off massively. It helped stakeholders visualize the experience, gave developers clear implementation guidance, and made usability testing feel realistic for participants.
+              When the team disagreed on feature priorities and design direction, we couldn't afford long debates. We established a voting system and committed to moving forward with decisions even if not everyone loved them. I learned that progress beats perfection when time is limited, and that healthy conflict actually strengthened our final solution.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-medium mb-4">Balancing Delight with Simplicity</h3>
+            <h3 className="text-2xl font-medium mb-4">Real-Time Design-Dev Collaboration</h3>
             <p className="leading-relaxed text-black/70 dark:text-white/70 mb-4">
-              The biggest challenge was making gamification feel fun without overwhelming users. Early designs had too many metrics and features. Through testing, I learned that focused simplicity beats feature-rich complexity every time.
+              Working in parallel with developers was crucial. I designed components knowing they'd be built within hours, so constant check-ins on feasibility saved us from design debt. This experience taught me to design with implementation in mind from the start, not as an afterthought.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-medium mb-4">Cross-Functional Collaboration</h3>
+            <h3 className="text-2xl font-medium mb-4">The Power of Constraints</h3>
             <p className="leading-relaxed text-black/70 dark:text-white/70">
-              Working closely with developers taught me to consider technical constraints during the design phase, not after. Regular check-ins about feasibility helped me design realistic solutions that could actually be built within our timeline.
+              Limited time forced radical prioritization. We cut features that would've been "nice" to focus on what would actually win. This constraint made the design sharper and more focused. I learned that sometimes having less time produces better results because you can't overcomplicate things.
             </p>
           </div>
 
           <div>
-            <h3 className="text-2xl font-medium mb-4">What I'd Do Differently</h3>
+            <h3 className="text-2xl font-medium mb-4">What Made Us Win</h3>
             <p className="leading-relaxed text-black/70 dark:text-white/70">
-              I would conduct user research earlier in the process. We made some assumptions about volunteer motivations that turned out to be wrong, leading to redesign work in week 3. Starting with user interviews would have prevented this.
+              Our willingness to disagree, make fast decisions, and trust each other under pressure. We didn't have perfect alignment—we had productive conflict followed by commitment. That's what allowed us to deliver a complete, polished solution in just 48 hours and ultimately take first place.
             </p>
           </div>
         </div>
